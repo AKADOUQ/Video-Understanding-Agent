@@ -1,7 +1,7 @@
 <table align="center">
   <tr>
     <td align="center" width="100">
-      <img src="docs/agent-logo.png" width="85" alt="Agent Logo">
+      <img src="figs/agent-logo.png" width="85" alt="Agent Logo">
     </td>
     <td align="left">
       <h1>
