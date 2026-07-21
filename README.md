@@ -1,21 +1,49 @@
-# Long-Video Understanding Agent
+# <div align="center">A Training-Free Long-Video Understanding Agent<br>with Structured Memory and Temporal Re-observation</div>
 
-Training-free long-video question answering with structured memory and temporal re-observation.
+<div align="center">
 
-This repository implements a Qwen3-VL based long-video QA system. The key idea is not to uniformly increase sampled frames, but to use a lightweight harness around the same base model:
+**Training-free long-video question answering with reusable structured memory and question-aware temporal observation**
 
-1. **Uniform baselines**: same base model, uniform sampling, single-round direct QA.
-2. **Multi-window tool use**: coarse observation, planner-selected temporal windows, local re-observation.
-3. **Structured segment memory**: persistent 60-second video memory with scene, characters, actions, objects, visible text, counting cues, temporal cues, and search keywords.
-4. **Neighbor expansion**: expand retrieved memory segments to adjacent time ranges before local visual re-observation.
+</div>
 
-The core agent orchestration is implemented in this repository and does not call any ready-made video-agent framework.
+> **Important Note:** This repository provides the implementation of a training-free long-video QA agent built on a frozen Qwen3-VL model.  
+> The framework is designed to locate sparse question-relevant evidence in long videos through structured segment memory, neighbor expansion, and local temporal re-observation, without model fine-tuning or a ready-made video-agent framework.
+
+---
+
+## Introduction
+
+🌟 **Training-free long-video question answering**
+
+Long videos often contain far more visual information than a multimodal model can process in a single pass. Uniform sampling provides broad coverage, but it may spend most of the visual budget on redundant or question-irrelevant frames while representing short-lived evidence with only an isolated observation.
+
+This repository studies a different strategy: rather than uniformly increasing the number of sampled frames, the system organizes perception around the question. It first constructs reusable segment-level memory for each video, retrieves temporally relevant segments using the question and candidate answers, expands neighboring context to reduce boundary misses, and then returns to the original video for local visual observation.
+
+The system is training-free: all methods use the same frozen Qwen3-VL-8B-Instruct checkpoint, and the differences come from how video observations, memory, retrieval, and tool calls are organized.
+
+## Framework
+
+<p align="center">
+  <img src="docs/overall-framework.png" width="1000" alt="Overall framework">
+</p>
+
+The framework contains an offline memory-construction stage and an online query-time reasoning stage:
+
+- **Uniform Sampling Baselines:** sample 32 or 64 frames across the full video and perform one-shot question answering.
+- **Multi-window Temporal Re-observation:** use coarse observations to select question-dependent temporal windows and reallocate the visual budget to those windows.
+- **Structured Segment Memory:** divide each video into zero-based 60-second segments and store reusable structured records containing scenes, entities, actions, objects, visible text, counting cues, temporal cues, and retrieval keywords.
+- **Question-aware Memory Retrieval:** retrieve a ranked set of seed segments using the question, answer options, and the memory bank of the current video.
+- **Neighbor Expansion and Temporal Merging:** expand each seed to adjacent segments, clip the range to valid video boundaries, and merge overlapping segment groups.
+- **Local Visual Re-observation:** sample original video frames from the merged temporal groups for fine-grained evidence acquisition.
+- **Visual-grounded Final QA:** use the re-observed frames as the primary evidence, while retaining the selected memory records as auxiliary guidance for final multiple-choice prediction.
+
+The core design principle is straightforward: **structured memory determines where to look, neighbor expansion reduces temporal boundary misses, and the original local video frames provide the primary evidence for answering.**
 
 ---
 
 ## Main Results
 
-Evaluation subset: `data/manifests/lvbench_official_30_fixed.json`, sampled from LVBench with 3 long videos and 30 QA items.
+Evaluation subset: `data/manifests/lvbench_official_30_fixed.json`, containing 30 QA items sampled from three LVBench long videos.
 
 |            Method            | Memory |                             Tool                             |      Visual budget       |    Accuracy    |
 | :--------------------------: | :----: | :----------------------------------------------------------: | :----------------------: | :------------: |
