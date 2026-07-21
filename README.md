@@ -40,24 +40,61 @@ The core design principle: **structured memory determines where to look, neighbo
 
 ## Main Results
 
-Evaluation subset: `data/manifests/lvbench_official_30_fixed.json`, containing 30 QA items sampled from three LVBench long videos.
+Evaluation subset: **LVBench-30** (`data/manifests/lvbench_official_30_fixed.json`), containing 30 multiple-choice QA items sampled from three long LVBench videos. All methods use the same frozen Qwen3-VL-8B-Instruct base model.
 
-|            Method            | Memory |                             Tool                             |      Visual budget       |    Accuracy    |
-| :--------------------------: | :----: | :----------------------------------------------------------: | :----------------------: | :------------: |
-|         Uniform U32          |   No   |                 Uniform sampling + direct QA                 |        32 frames         | 10/30 = 33.33% |
-|         Uniform U64          |   No   |                 Uniform sampling + direct QA                 |        64 frames         | 10/30 = 33.33% |
-|      Multi-window Agent      |   No   |         8 coarse frames + 3 local windows × 8 frames         |        32 frames         | 13/30 = 43.33% |
-| StructuredMemory + Expansion |  Yes   | Memory retrieval + neighbor expansion + local re-observation | 24 local frames + memory | 16/30 = 53.33% |
+| Method                            | Memory | Tool Use | Observation Strategy                  |      Accuracy      |
+| :-------------------------------- | :----: | :------: | :------------------------------------ | :----------------: |
+| Uniform U32                       |   ✗    |    ✗     | Uniform 32-frame sampling             |   10/30 (33.33%)   |
+| Uniform U64                       |   ✗    |    ✗     | Uniform 64-frame sampling             |   10/30 (33.33%)   |
+| Multi-window Agent                |   ✗    |    ✓     | Question-guided multi-window sampling |   13/30 (43.33%)   |
+| **Structured-Memory + Expansion** |   ✓    |    ✓     | Memory-guided temporal re-observation | **16/30 (53.33%)** |
 
-Temporal evidence coverage for `Structured Memory + Expansion`:
+Uniform U32 and U64 achieve the same accuracy, showing that simply doubling the number of uniformly sampled frames does not improve performance on this subset. The Multi-window Agent improves accuracy through question-guided observation, while Structured-Memory + Expansion reaches the best result.
 
-|         Metric          |     Value      |
-| :---------------------: | :------------: |
-| Seed retrieval hit rate | 20/30 = 66.67% |
-|    Expanded hit rate    | 25/30 = 83.33% |
-|     Final accuracy      | 16/30 = 53.33% |
+### Per-video Results
 
-These results show that simply increasing uniform frames from 32 to 64 does not improve the baseline, while question-aware temporal re-observation and structured memory improve both accuracy and evidence coverage.
+Videos A, B, and C correspond to the approximately 102-, 42-, and 35-minute videos, respectively. Each video contains ten questions.
+
+| Method                            | Video A  | Video B  | Video C  |  Overall  |
+| :-------------------------------- | :------: | :------: | :------: | :-------: |
+| Uniform U32                       |   3/10   |   3/10   |   4/10   |   10/30   |
+| Uniform U64                       |   4/10   |   3/10   |   3/10   |   10/30   |
+| Multi-window Agent                |   2/10   |   5/10   | **6/10** |   13/30   |
+| **Structured-Memory + Expansion** | **5/10** | **6/10** |   5/10   | **16/30** |
+
+The final method performs best on Videos A and B, while the Multi-window Agent performs best on Video C. This indicates that the benefit of persistent structured memory varies across videos rather than uniformly dominating every question set.
+
+### Question-type Results
+
+The category labels below follow the question-type annotations used in the evaluation manifest.
+
+| Question Type | Questions | Uniform U32 | Uniform U64 | Multi-window Agent | Structured-Memory + Expansion |
+| :------------ | :-------: | :---------: | :---------: | :----------------: | :---------------------------: |
+| Text          |     3     |     0/3     |     0/3     |      **1/3**       |            **1/3**            |
+| Recognition   |     4     |     1/4     |     1/4     |      **3/4**       |            **3/4**            |
+| Action        |     7     |     2/7     |     2/7     |        2/7         |            **3/7**            |
+| Counting      |     4     |   **1/4**   |   **1/4**   |      **1/4**       |            **1/4**            |
+| Causal        |     6     |     4/6     |   **5/6**   |        4/6         |            **5/6**            |
+| Composite     |     6     |     2/6     |     1/6     |        2/6         |            **3/6**            |
+| **Total**     |  **30**   |  **10/30**  |  **10/30**  |     **13/30**      |           **16/30**           |
+
+The clearest gains appear in recognition, action, and composite questions. Text recognition and counting remain difficult, indicating that improved temporal localization does not fully solve fine-grained OCR or dense counting.
+
+### Retrieval and Boundary Recovery
+
+Expansion includes two neighboring segments on each side of every retrieved seed and merges overlapping temporal groups.
+
+| Metric                       | Count |  Rate  |
+| :--------------------------- | :---: | :----: |
+| Seed retrieval hit           | 20/30 | 66.67% |
+| Expanded temporal hit        | 25/30 | 83.33% |
+| Recovered by expansion       | 5/30  | 16.67% |
+| Correct with seed hit        | 12/30 | 40.00% |
+| Correct with expanded hit    | 14/30 | 46.67% |
+| Correct without expanded hit | 2/30  | 6.67%  |
+| Final accuracy               | 16/30 | 53.33% |
+
+Neighbor expansion raises temporal evidence coverage from 66.67% to 83.33%, recovering five cases that were missed by the initially retrieved seed segments. The gap between expanded hit rate and final accuracy shows that finding the correct interval is necessary but does not guarantee correct fine-grained visual reasoning.
 
 ---
 
