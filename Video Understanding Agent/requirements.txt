@@ -1,9 +1,0 @@
-torch
-transformers>=4.56.0
-datasets
-huggingface_hub
-decord
-Pillow
-numpy
-tqdm
-accelerate
