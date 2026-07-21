@@ -133,8 +133,8 @@ pip install -r requirements.txt
 The experiments were run with a local Qwen3-VL-8B-Instruct checkpoint. Set:
 
 ```bash
-export MODEL_PATH=/path/to/Qwen3-VL-8B-Instruct
-export VIDEO_ROOT=/path/to/LVBench/videos
+export MODEL_PATH=/root/Qwen3-VL-8B-Instruct
+export VIDEO_ROOT=/root/LVBench/videos
 export GPU=0
 ```
 
