@@ -1,0 +1,415 @@
+[
+  {
+    "id": "official_0000",
+    "video": "vZV2WCKMsKs.mp4",
+    "video_key": "vZV2WCKMsKs",
+    "video_path": "vZV2WCKMsKs.mp4",
+    "question": "What is written on the paper that Heather holds in her hand?",
+    "options": [
+      [
+        "A",
+        "Bogart Simon"
+      ],
+      [
+        "B",
+        "Bonnie Amber"
+      ],
+      [
+        "C",
+        "Adrian Stoica"
+      ],
+      [
+        "D",
+        "Heather"
+      ]
+    ],
+    "answer": "A",
+    "question_type": "visible_text",
+    "time_reference": "28:21-28:21",
+    "raw_item": {
+      "video_path": "vZV2WCKMsKs.mp4",
+      "uid": "4692",
+      "question": "What is written on the paper that Heather holds in her hand?\n(A) Bogart Simon\n(B) Bonnie Amber\n(C) Adrian Stoica\n(D) Heather",
+      "question_type": [
+        "key information retrieval"
+      ],
+      "answer": "A",
+      "time_reference": "28:21-28:21",
+      "type": "tv",
+      "key": "vZV2WCKMsKs"
+    },
+    "question_with_inline_options": "What is written on the paper that Heather holds in her hand?\n(A) Bogart Simon\n(B) Bonnie Amber\n(C) Adrian Stoica\n(D) Heather"
+  },
+  {
+    "id": "official_0001",
+    "video": "vZV2WCKMsKs.mp4",
+    "video_key": "vZV2WCKMsKs",
+    "video_path": "vZV2WCKMsKs.mp4",
+    "question": "Who is the woman wearing a tall hat, dressed head to toe in black, holding a magician stick, and the dog wearing black clothes with a silver star?",
+    "options": [
+      [
+        "A",
+        "Amber and Nymeria's show time"
+      ],
+      [
+        "B",
+        "Aron and Buddy's show time"
+      ],
+      [
+        "C",
+        "Adrian Stoica and Hurricane's show time"
+      ],
+      [
+        "D",
+        "Heather and Bogart's show time"
+      ]
+    ],
+    "answer": "A",
+    "question_type": "scene_object",
+    "time_reference": "07:58-12:02",
+    "raw_item": {
+      "video_path": "vZV2WCKMsKs.mp4",
+      "uid": "4683",
+      "question": "Who is the woman wearing a tall hat, dressed head to toe in black, holding a magician stick, and the dog wearing black clothes with a silver star?\n(A) Amber and Nymeria's show time\n(B) Aron and Buddy's show time\n(C) Adrian Stoica and Hurricane's show time\n(D) Heather and Bogart's show time",
+      "question_type": [
+        "entity recognition"
+      ],
+      "answer": "A",
+      "time_reference": "07:58-12:02",
+      "type": "tv",
+      "key": "vZV2WCKMsKs"
+    },
+    "question_with_inline_options": "Who is the woman wearing a tall hat, dressed head to toe in black, holding a magician stick, and the dog wearing black clothes with a silver star?\n(A) Amber and Nymeria's show time\n(B) Aron and Buddy's show time\n(C) Adrian Stoica and Hurricane's show time\n(D) Heather and Bogart's show time"
+  },
+  {
+    "id": "official_0002",
+    "video": "vZV2WCKMsKs.mp4",
+    "video_key": "vZV2WCKMsKs",
+    "video_path": "vZV2WCKMsKs.mp4",
+    "question": "How many dogs does Diana Vedyashinka perform with?",
+    "options": [
+      [
+        "A",
+        "Three"
+      ],
+      [
+        "B",
+        "Five"
+      ],
+      [
+        "C",
+        "Six"
+      ],
+      [
+        "D",
+        "Four"
+      ]
+    ],
+    "answer": "B",
+    "question_type": "action_chain",
+    "time_reference": "15:10-16:39",
+    "raw_item": {
+      "video_path": "vZV2WCKMsKs.mp4",
+      "uid": "4686",
+      "question": "How many dogs does Diana Vedyashinka perform with?\n(A) Three\n(B) Five\n(C) Six\n(D) Four",
+      "question_type": [
+        "event understanding"
+      ],
+      "answer": "B",
+      "time_reference": "15:10-16:39",
+      "type": "tv",
+      "key": "vZV2WCKMsKs"
+    },
+    "question_with_inline_options": "How many dogs does Diana Vedyashinka perform with?\n(A) Three\n(B) Five\n(C) Six\n(D) Four"
+  },
+  {
+    "id": "official_0003",
+    "video": "vZV2WCKMsKs.mp4",
+    "video_key": "vZV2WCKMsKs",
+    "video_path": "vZV2WCKMsKs.mp4",
+    "question": "How many judges are there?",
+    "options": [
+      [
+        "A",
+        "Five"
+      ],
+      [
+        "B",
+        "Four"
+      ],
+      [
+        "C",
+        "Six"
+      ],
+      [
+        "D",
+        "Three"
+      ]
+    ],
+    "answer": "B",
+    "question_type": "counting",
+    "time_reference": "59:03-59:03",
+    "raw_item": {
+      "video_path": "vZV2WCKMsKs.mp4",
+      "uid": "4703",
+      "question": "How many judges are there?\n(A) Five\n(B) Four\n(C) Six\n(D) Three",
+      "question_type": [
+        "entity recognition"
+      ],
+      "answer": "B",
+      "time_reference": "59:03-59:03",
+      "type": "tv",
+      "key": "vZV2WCKMsKs"
+    },
+    "question_with_inline_options": "How many judges are there?\n(A) Five\n(B) Four\n(C) Six\n(D) Three"
+  },
+  {
+    "id": "official_0004",
+    "video": "vZV2WCKMsKs.mp4",
+    "video_key": "vZV2WCKMsKs",
+    "video_path": "vZV2WCKMsKs.mp4",
+    "question": "Why does Miracle's owner play a video clip?",
+    "options": [
+      [
+        "A",
+        "To explain why Miracle becomes so beautiful"
+      ],
+      [
+        "B",
+        "To explain why Miracle' gets hurt"
+      ],
+      [
+        "C",
+        "To explain why Miracle's owner cries"
+      ],
+      [
+        "D",
+        "To explain why Miracle's owner have over 40 dogs"
+      ]
+    ],
+    "answer": "D",
+    "question_type": "cause_reason",
+    "time_reference": "46:44-48:58",
+    "raw_item": {
+      "video_path": "vZV2WCKMsKs.mp4",
+      "uid": "4699",
+      "question": "Why does Miracle's owner play a video clip?\n(A) To explain why Miracle becomes so beautiful\n(B) To explain why Miracle' gets hurt\n(C) To explain why Miracle's owner cries\n(D) To explain why Miracle's owner have over 40 dogs",
+      "question_type": [
+        "reasoning",
+        "key information retrieval"
+      ],
+      "answer": "D",
+      "time_reference": "46:44-48:58",
+      "type": "tv",
+      "key": "vZV2WCKMsKs"
+    },
+    "question_with_inline_options": "Why does Miracle's owner play a video clip?\n(A) To explain why Miracle becomes so beautiful\n(B) To explain why Miracle' gets hurt\n(C) To explain why Miracle's owner cries\n(D) To explain why Miracle's owner have over 40 dogs"
+  },
+  {
+    "id": "official_0005",
+    "video": "vZV2WCKMsKs.mp4",
+    "video_key": "vZV2WCKMsKs",
+    "video_path": "vZV2WCKMsKs.mp4",
+    "question": "What is the name of the third group?",
+    "options": [
+      [
+        "A",
+        "Aron and Buddy"
+      ],
+      [
+        "B",
+        "Amber and Nymeria"
+      ],
+      [
+        "C",
+        "Heather and Bogart"
+      ],
+      [
+        "D",
+        "Adrian Stoica and Hurricane"
+      ]
+    ],
+    "answer": "B",
+    "question_type": "other",
+    "time_reference": "00:01-07:58",
+    "raw_item": {
+      "video_path": "vZV2WCKMsKs.mp4",
+      "uid": "4682",
+      "question": "What is the name of the third group?\n(A) Aron and Buddy\n(B) Amber and Nymeria\n(C) Heather and Bogart\n(D) Adrian Stoica and Hurricane",
+      "question_type": [
+        "entity recognition"
+      ],
+      "answer": "B",
+      "time_reference": "00:01-07:58",
+      "type": "tv",
+      "key": "vZV2WCKMsKs"
+    },
+    "question_with_inline_options": "What is the name of the third group?\n(A) Aron and Buddy\n(B) Amber and Nymeria\n(C) Heather and Bogart\n(D) Adrian Stoica and Hurricane"
+  },
+  {
+    "id": "official_0006",
+    "video": "vZV2WCKMsKs.mp4",
+    "video_key": "vZV2WCKMsKs",
+    "video_path": "vZV2WCKMsKs.mp4",
+    "question": "What is the decoration on the neck of the black and white dog that comes out after the puppy wearing the red bow?",
+    "options": [
+      [
+        "A",
+        "Blue scarf"
+      ],
+      [
+        "B",
+        "Black scarf"
+      ],
+      [
+        "C",
+        "Red scarf"
+      ],
+      [
+        "D",
+        "White scarf"
+      ]
+    ],
+    "answer": "C",
+    "question_type": "action_chain",
+    "time_reference": "26:55-26:59",
+    "raw_item": {
+      "video_path": "vZV2WCKMsKs.mp4",
+      "uid": "4691",
+      "question": "What is the decoration on the neck of the black and white dog that comes out after the puppy wearing the red bow?\n(A) Blue scarf\n(B) Black scarf\n(C) Red scarf\n(D) White scarf",
+      "question_type": [
+        "entity recognition"
+      ],
+      "answer": "C",
+      "time_reference": "26:55-26:59",
+      "type": "tv",
+      "key": "vZV2WCKMsKs"
+    },
+    "question_with_inline_options": "What is the decoration on the neck of the black and white dog that comes out after the puppy wearing the red bow?\n(A) Blue scarf\n(B) Black scarf\n(C) Red scarf\n(D) White scarf"
+  },
+  {
+    "id": "official_0007",
+    "video": "vZV2WCKMsKs.mp4",
+    "video_key": "vZV2WCKMsKs",
+    "video_path": "vZV2WCKMsKs.mp4",
+    "question": "How many legs does Bogart have?",
+    "options": [
+      [
+        "A",
+        "Four"
+      ],
+      [
+        "B",
+        "Three"
+      ],
+      [
+        "C",
+        "One"
+      ],
+      [
+        "D",
+        "Two"
+      ]
+    ],
+    "answer": "B",
+    "question_type": "counting",
+    "time_reference": "26:33-29:31",
+    "raw_item": {
+      "video_path": "vZV2WCKMsKs.mp4",
+      "uid": "4693",
+      "question": "How many legs does Bogart have?\n(A) Four\n(B) Three\n(C) One\n(D) Two",
+      "question_type": [
+        "entity recognition"
+      ],
+      "answer": "B",
+      "time_reference": "26:33-29:31",
+      "type": "tv",
+      "key": "vZV2WCKMsKs"
+    },
+    "question_with_inline_options": "How many legs does Bogart have?\n(A) Four\n(B) Three\n(C) One\n(D) Two"
+  },
+  {
+    "id": "official_0008",
+    "video": "vZV2WCKMsKs.mp4",
+    "video_key": "vZV2WCKMsKs",
+    "video_path": "vZV2WCKMsKs.mp4",
+    "question": "What do Buddy and Aaron perform?",
+    "options": [
+      [
+        "A",
+        "Buddy plays the piano and Aaron sings"
+      ],
+      [
+        "B",
+        "Aaron plays the guitar and Buddy sings"
+      ],
+      [
+        "C",
+        "Aaron plays the piano and Buddy sings"
+      ],
+      [
+        "D",
+        "Aaron plays the hide-and-seek and Buddy sings"
+      ]
+    ],
+    "answer": "B",
+    "question_type": "cause_reason",
+    "time_reference": "18:26-20:53",
+    "raw_item": {
+      "video_path": "vZV2WCKMsKs.mp4",
+      "uid": "4689",
+      "question": "What do Buddy and Aaron perform?\n(A) Buddy plays the piano and Aaron sings\n(B) Aaron plays the guitar and Buddy sings\n(C) Aaron plays the piano and Buddy sings\n(D) Aaron plays the hide-and-seek and Buddy sings",
+      "question_type": [
+        "key information retrieval",
+        "reasoning",
+        "entity recognition"
+      ],
+      "answer": "B",
+      "time_reference": "18:26-20:53",
+      "type": "tv",
+      "key": "vZV2WCKMsKs"
+    },
+    "question_with_inline_options": "What do Buddy and Aaron perform?\n(A) Buddy plays the piano and Aaron sings\n(B) Aaron plays the guitar and Buddy sings\n(C) Aaron plays the piano and Buddy sings\n(D) Aaron plays the hide-and-seek and Buddy sings"
+  },
+  {
+    "id": "official_0009",
+    "video": "vZV2WCKMsKs.mp4",
+    "video_key": "vZV2WCKMsKs",
+    "video_path": "vZV2WCKMsKs.mp4",
+    "question": "What is the name of the dog that plays the piano?",
+    "options": [
+      [
+        "A",
+        "Bonnie"
+      ],
+      [
+        "B",
+        "Hurricane"
+      ],
+      [
+        "C",
+        "Buddy"
+      ],
+      [
+        "D",
+        "Nymeria"
+      ]
+    ],
+    "answer": "A",
+    "question_type": "other",
+    "time_reference": "04:45-05:49",
+    "raw_item": {
+      "video_path": "vZV2WCKMsKs.mp4",
+      "uid": "4680",
+      "question": "What is the name of the dog that plays the piano?\n(A) Bonnie\n(B) Hurricane\n(C) Buddy\n(D) Nymeria",
+      "question_type": [
+        "key information retrieval"
+      ],
+      "answer": "A",
+      "time_reference": "04:45-05:49",
+      "type": "tv",
+      "key": "vZV2WCKMsKs"
+    },
+    "question_with_inline_options": "What is the name of the dog that plays the piano?\n(A) Bonnie\n(B) Hurricane\n(C) Buddy\n(D) Nymeria"
+  }
+]

@@ -1,0 +1,1238 @@
+[
+  {
+    "id": "official_0000",
+    "video": "vZV2WCKMsKs.mp4",
+    "video_key": "vZV2WCKMsKs",
+    "video_path": "vZV2WCKMsKs.mp4",
+    "question": "What is written on the paper that Heather holds in her hand?",
+    "options": [
+      [
+        "A",
+        "Bogart Simon"
+      ],
+      [
+        "B",
+        "Bonnie Amber"
+      ],
+      [
+        "C",
+        "Adrian Stoica"
+      ],
+      [
+        "D",
+        "Heather"
+      ]
+    ],
+    "answer": "A",
+    "question_type": "visible_text",
+    "time_reference": "28:21-28:21",
+    "raw_item": {
+      "video_path": "vZV2WCKMsKs.mp4",
+      "uid": "4692",
+      "question": "What is written on the paper that Heather holds in her hand?\n(A) Bogart Simon\n(B) Bonnie Amber\n(C) Adrian Stoica\n(D) Heather",
+      "question_type": [
+        "key information retrieval"
+      ],
+      "answer": "A",
+      "time_reference": "28:21-28:21",
+      "type": "tv",
+      "key": "vZV2WCKMsKs"
+    },
+    "question_with_inline_options": "What is written on the paper that Heather holds in her hand?\n(A) Bogart Simon\n(B) Bonnie Amber\n(C) Adrian Stoica\n(D) Heather"
+  },
+  {
+    "id": "official_0001",
+    "video": "vZV2WCKMsKs.mp4",
+    "video_key": "vZV2WCKMsKs",
+    "video_path": "vZV2WCKMsKs.mp4",
+    "question": "Who is the woman wearing a tall hat, dressed head to toe in black, holding a magician stick, and the dog wearing black clothes with a silver star?",
+    "options": [
+      [
+        "A",
+        "Amber and Nymeria's show time"
+      ],
+      [
+        "B",
+        "Aron and Buddy's show time"
+      ],
+      [
+        "C",
+        "Adrian Stoica and Hurricane's show time"
+      ],
+      [
+        "D",
+        "Heather and Bogart's show time"
+      ]
+    ],
+    "answer": "A",
+    "question_type": "scene_object",
+    "time_reference": "07:58-12:02",
+    "raw_item": {
+      "video_path": "vZV2WCKMsKs.mp4",
+      "uid": "4683",
+      "question": "Who is the woman wearing a tall hat, dressed head to toe in black, holding a magician stick, and the dog wearing black clothes with a silver star?\n(A) Amber and Nymeria's show time\n(B) Aron and Buddy's show time\n(C) Adrian Stoica and Hurricane's show time\n(D) Heather and Bogart's show time",
+      "question_type": [
+        "entity recognition"
+      ],
+      "answer": "A",
+      "time_reference": "07:58-12:02",
+      "type": "tv",
+      "key": "vZV2WCKMsKs"
+    },
+    "question_with_inline_options": "Who is the woman wearing a tall hat, dressed head to toe in black, holding a magician stick, and the dog wearing black clothes with a silver star?\n(A) Amber and Nymeria's show time\n(B) Aron and Buddy's show time\n(C) Adrian Stoica and Hurricane's show time\n(D) Heather and Bogart's show time"
+  },
+  {
+    "id": "official_0002",
+    "video": "vZV2WCKMsKs.mp4",
+    "video_key": "vZV2WCKMsKs",
+    "video_path": "vZV2WCKMsKs.mp4",
+    "question": "How many dogs does Diana Vedyashinka perform with?",
+    "options": [
+      [
+        "A",
+        "Three"
+      ],
+      [
+        "B",
+        "Five"
+      ],
+      [
+        "C",
+        "Six"
+      ],
+      [
+        "D",
+        "Four"
+      ]
+    ],
+    "answer": "B",
+    "question_type": "action_chain",
+    "time_reference": "15:10-16:39",
+    "raw_item": {
+      "video_path": "vZV2WCKMsKs.mp4",
+      "uid": "4686",
+      "question": "How many dogs does Diana Vedyashinka perform with?\n(A) Three\n(B) Five\n(C) Six\n(D) Four",
+      "question_type": [
+        "event understanding"
+      ],
+      "answer": "B",
+      "time_reference": "15:10-16:39",
+      "type": "tv",
+      "key": "vZV2WCKMsKs"
+    },
+    "question_with_inline_options": "How many dogs does Diana Vedyashinka perform with?\n(A) Three\n(B) Five\n(C) Six\n(D) Four"
+  },
+  {
+    "id": "official_0003",
+    "video": "vZV2WCKMsKs.mp4",
+    "video_key": "vZV2WCKMsKs",
+    "video_path": "vZV2WCKMsKs.mp4",
+    "question": "How many judges are there?",
+    "options": [
+      [
+        "A",
+        "Five"
+      ],
+      [
+        "B",
+        "Four"
+      ],
+      [
+        "C",
+        "Six"
+      ],
+      [
+        "D",
+        "Three"
+      ]
+    ],
+    "answer": "B",
+    "question_type": "counting",
+    "time_reference": "59:03-59:03",
+    "raw_item": {
+      "video_path": "vZV2WCKMsKs.mp4",
+      "uid": "4703",
+      "question": "How many judges are there?\n(A) Five\n(B) Four\n(C) Six\n(D) Three",
+      "question_type": [
+        "entity recognition"
+      ],
+      "answer": "B",
+      "time_reference": "59:03-59:03",
+      "type": "tv",
+      "key": "vZV2WCKMsKs"
+    },
+    "question_with_inline_options": "How many judges are there?\n(A) Five\n(B) Four\n(C) Six\n(D) Three"
+  },
+  {
+    "id": "official_0004",
+    "video": "vZV2WCKMsKs.mp4",
+    "video_key": "vZV2WCKMsKs",
+    "video_path": "vZV2WCKMsKs.mp4",
+    "question": "Why does Miracle's owner play a video clip?",
+    "options": [
+      [
+        "A",
+        "To explain why Miracle becomes so beautiful"
+      ],
+      [
+        "B",
+        "To explain why Miracle' gets hurt"
+      ],
+      [
+        "C",
+        "To explain why Miracle's owner cries"
+      ],
+      [
+        "D",
+        "To explain why Miracle's owner have over 40 dogs"
+      ]
+    ],
+    "answer": "D",
+    "question_type": "cause_reason",
+    "time_reference": "46:44-48:58",
+    "raw_item": {
+      "video_path": "vZV2WCKMsKs.mp4",
+      "uid": "4699",
+      "question": "Why does Miracle's owner play a video clip?\n(A) To explain why Miracle becomes so beautiful\n(B) To explain why Miracle' gets hurt\n(C) To explain why Miracle's owner cries\n(D) To explain why Miracle's owner have over 40 dogs",
+      "question_type": [
+        "reasoning",
+        "key information retrieval"
+      ],
+      "answer": "D",
+      "time_reference": "46:44-48:58",
+      "type": "tv",
+      "key": "vZV2WCKMsKs"
+    },
+    "question_with_inline_options": "Why does Miracle's owner play a video clip?\n(A) To explain why Miracle becomes so beautiful\n(B) To explain why Miracle' gets hurt\n(C) To explain why Miracle's owner cries\n(D) To explain why Miracle's owner have over 40 dogs"
+  },
+  {
+    "id": "official_0005",
+    "video": "vZV2WCKMsKs.mp4",
+    "video_key": "vZV2WCKMsKs",
+    "video_path": "vZV2WCKMsKs.mp4",
+    "question": "What is the name of the third group?",
+    "options": [
+      [
+        "A",
+        "Aron and Buddy"
+      ],
+      [
+        "B",
+        "Amber and Nymeria"
+      ],
+      [
+        "C",
+        "Heather and Bogart"
+      ],
+      [
+        "D",
+        "Adrian Stoica and Hurricane"
+      ]
+    ],
+    "answer": "B",
+    "question_type": "other",
+    "time_reference": "00:01-07:58",
+    "raw_item": {
+      "video_path": "vZV2WCKMsKs.mp4",
+      "uid": "4682",
+      "question": "What is the name of the third group?\n(A) Aron and Buddy\n(B) Amber and Nymeria\n(C) Heather and Bogart\n(D) Adrian Stoica and Hurricane",
+      "question_type": [
+        "entity recognition"
+      ],
+      "answer": "B",
+      "time_reference": "00:01-07:58",
+      "type": "tv",
+      "key": "vZV2WCKMsKs"
+    },
+    "question_with_inline_options": "What is the name of the third group?\n(A) Aron and Buddy\n(B) Amber and Nymeria\n(C) Heather and Bogart\n(D) Adrian Stoica and Hurricane"
+  },
+  {
+    "id": "official_0006",
+    "video": "vZV2WCKMsKs.mp4",
+    "video_key": "vZV2WCKMsKs",
+    "video_path": "vZV2WCKMsKs.mp4",
+    "question": "What is the decoration on the neck of the black and white dog that comes out after the puppy wearing the red bow?",
+    "options": [
+      [
+        "A",
+        "Blue scarf"
+      ],
+      [
+        "B",
+        "Black scarf"
+      ],
+      [
+        "C",
+        "Red scarf"
+      ],
+      [
+        "D",
+        "White scarf"
+      ]
+    ],
+    "answer": "C",
+    "question_type": "action_chain",
+    "time_reference": "26:55-26:59",
+    "raw_item": {
+      "video_path": "vZV2WCKMsKs.mp4",
+      "uid": "4691",
+      "question": "What is the decoration on the neck of the black and white dog that comes out after the puppy wearing the red bow?\n(A) Blue scarf\n(B) Black scarf\n(C) Red scarf\n(D) White scarf",
+      "question_type": [
+        "entity recognition"
+      ],
+      "answer": "C",
+      "time_reference": "26:55-26:59",
+      "type": "tv",
+      "key": "vZV2WCKMsKs"
+    },
+    "question_with_inline_options": "What is the decoration on the neck of the black and white dog that comes out after the puppy wearing the red bow?\n(A) Blue scarf\n(B) Black scarf\n(C) Red scarf\n(D) White scarf"
+  },
+  {
+    "id": "official_0007",
+    "video": "vZV2WCKMsKs.mp4",
+    "video_key": "vZV2WCKMsKs",
+    "video_path": "vZV2WCKMsKs.mp4",
+    "question": "How many legs does Bogart have?",
+    "options": [
+      [
+        "A",
+        "Four"
+      ],
+      [
+        "B",
+        "Three"
+      ],
+      [
+        "C",
+        "One"
+      ],
+      [
+        "D",
+        "Two"
+      ]
+    ],
+    "answer": "B",
+    "question_type": "counting",
+    "time_reference": "26:33-29:31",
+    "raw_item": {
+      "video_path": "vZV2WCKMsKs.mp4",
+      "uid": "4693",
+      "question": "How many legs does Bogart have?\n(A) Four\n(B) Three\n(C) One\n(D) Two",
+      "question_type": [
+        "entity recognition"
+      ],
+      "answer": "B",
+      "time_reference": "26:33-29:31",
+      "type": "tv",
+      "key": "vZV2WCKMsKs"
+    },
+    "question_with_inline_options": "How many legs does Bogart have?\n(A) Four\n(B) Three\n(C) One\n(D) Two"
+  },
+  {
+    "id": "official_0008",
+    "video": "vZV2WCKMsKs.mp4",
+    "video_key": "vZV2WCKMsKs",
+    "video_path": "vZV2WCKMsKs.mp4",
+    "question": "What do Buddy and Aaron perform?",
+    "options": [
+      [
+        "A",
+        "Buddy plays the piano and Aaron sings"
+      ],
+      [
+        "B",
+        "Aaron plays the guitar and Buddy sings"
+      ],
+      [
+        "C",
+        "Aaron plays the piano and Buddy sings"
+      ],
+      [
+        "D",
+        "Aaron plays the hide-and-seek and Buddy sings"
+      ]
+    ],
+    "answer": "B",
+    "question_type": "cause_reason",
+    "time_reference": "18:26-20:53",
+    "raw_item": {
+      "video_path": "vZV2WCKMsKs.mp4",
+      "uid": "4689",
+      "question": "What do Buddy and Aaron perform?\n(A) Buddy plays the piano and Aaron sings\n(B) Aaron plays the guitar and Buddy sings\n(C) Aaron plays the piano and Buddy sings\n(D) Aaron plays the hide-and-seek and Buddy sings",
+      "question_type": [
+        "key information retrieval",
+        "reasoning",
+        "entity recognition"
+      ],
+      "answer": "B",
+      "time_reference": "18:26-20:53",
+      "type": "tv",
+      "key": "vZV2WCKMsKs"
+    },
+    "question_with_inline_options": "What do Buddy and Aaron perform?\n(A) Buddy plays the piano and Aaron sings\n(B) Aaron plays the guitar and Buddy sings\n(C) Aaron plays the piano and Buddy sings\n(D) Aaron plays the hide-and-seek and Buddy sings"
+  },
+  {
+    "id": "official_0009",
+    "video": "vZV2WCKMsKs.mp4",
+    "video_key": "vZV2WCKMsKs",
+    "video_path": "vZV2WCKMsKs.mp4",
+    "question": "What is the name of the dog that plays the piano?",
+    "options": [
+      [
+        "A",
+        "Bonnie"
+      ],
+      [
+        "B",
+        "Hurricane"
+      ],
+      [
+        "C",
+        "Buddy"
+      ],
+      [
+        "D",
+        "Nymeria"
+      ]
+    ],
+    "answer": "A",
+    "question_type": "other",
+    "time_reference": "04:45-05:49",
+    "raw_item": {
+      "video_path": "vZV2WCKMsKs.mp4",
+      "uid": "4680",
+      "question": "What is the name of the dog that plays the piano?\n(A) Bonnie\n(B) Hurricane\n(C) Buddy\n(D) Nymeria",
+      "question_type": [
+        "key information retrieval"
+      ],
+      "answer": "A",
+      "time_reference": "04:45-05:49",
+      "type": "tv",
+      "key": "vZV2WCKMsKs"
+    },
+    "question_with_inline_options": "What is the name of the dog that plays the piano?\n(A) Bonnie\n(B) Hurricane\n(C) Buddy\n(D) Nymeria"
+  },
+  {
+    "id": "official_0010",
+    "video": "TJR1oYDDTwg.mp4",
+    "video_key": "TJR1oYDDTwg",
+    "video_path": "TJR1oYDDTwg.mp4",
+    "question": "What is the first word in the video?",
+    "options": [
+      [
+        "A",
+        "ENT"
+      ],
+      [
+        "B",
+        "NET"
+      ],
+      [
+        "C",
+        "TNE"
+      ],
+      [
+        "D",
+        "ETN"
+      ]
+    ],
+    "answer": "B",
+    "question_type": "visible_text",
+    "time_reference": "00:00-00:06",
+    "raw_item": {
+      "video_path": "TJR1oYDDTwg.mp4",
+      "uid": "250",
+      "question": "What is the first word in the video?\n(A) ENT\n(B) NET\n(C) TNE\n(D) ETN",
+      "question_type": [
+        "key information retrieval"
+      ],
+      "answer": "B",
+      "time_reference": "00:00-00:06",
+      "type": "cartoon",
+      "key": "TJR1oYDDTwg"
+    },
+    "question_with_inline_options": "What is the first word in the video?\n(A) ENT\n(B) NET\n(C) TNE\n(D) ETN"
+  },
+  {
+    "id": "official_0011",
+    "video": "TJR1oYDDTwg.mp4",
+    "video_key": "TJR1oYDDTwg",
+    "video_path": "TJR1oYDDTwg.mp4",
+    "question": "What color are the teeth in the middle of the green dragon?",
+    "options": [
+      [
+        "A",
+        "Yellow"
+      ],
+      [
+        "B",
+        "Aqua"
+      ],
+      [
+        "C",
+        "Brown"
+      ],
+      [
+        "D",
+        "Faint yellow"
+      ]
+    ],
+    "answer": "D",
+    "question_type": "scene_object",
+    "time_reference": "06:17-06:21",
+    "raw_item": {
+      "video_path": "TJR1oYDDTwg.mp4",
+      "uid": "259",
+      "question": "What color are the teeth in the middle of the green dragon?\n(A) Yellow\n(B) Aqua\n(C) Brown\n(D) Faint yellow",
+      "question_type": [
+        "entity recognition"
+      ],
+      "answer": "D",
+      "time_reference": "06:17-06:21",
+      "type": "cartoon",
+      "key": "TJR1oYDDTwg"
+    },
+    "question_with_inline_options": "What color are the teeth in the middle of the green dragon?\n(A) Yellow\n(B) Aqua\n(C) Brown\n(D) Faint yellow"
+  },
+  {
+    "id": "official_0012",
+    "video": "TJR1oYDDTwg.mp4",
+    "video_key": "TJR1oYDDTwg",
+    "video_path": "TJR1oYDDTwg.mp4",
+    "question": "What happens when the villain's mirror breaks?",
+    "options": [
+      [
+        "A",
+        "The mirror fragments automatically fuse on the ground into a whole mirror again"
+      ],
+      [
+        "B",
+        "The mirror fragments cut the villain's hand"
+      ],
+      [
+        "C",
+        "The mirror fragments are thrown away by the villains"
+      ],
+      [
+        "D",
+        "The mirror fragments fly into the sky"
+      ]
+    ],
+    "answer": "D",
+    "question_type": "action_chain",
+    "time_reference": "09:49-09:56",
+    "raw_item": {
+      "video_path": "TJR1oYDDTwg.mp4",
+      "uid": "264",
+      "question": "What happens when the villain's mirror breaks?\n(A) The mirror fragments automatically fuse on the ground into a whole mirror again\n(B) The mirror fragments cut the villain's hand\n(C) The mirror fragments are thrown away by the villains\n(D) The mirror fragments fly into the sky",
+      "question_type": [
+        "event understanding"
+      ],
+      "answer": "D",
+      "time_reference": "09:49-09:56",
+      "type": "cartoon",
+      "key": "TJR1oYDDTwg"
+    },
+    "question_with_inline_options": "What happens when the villain's mirror breaks?\n(A) The mirror fragments automatically fuse on the ground into a whole mirror again\n(B) The mirror fragments cut the villain's hand\n(C) The mirror fragments are thrown away by the villains\n(D) The mirror fragments fly into the sky"
+  },
+  {
+    "id": "official_0013",
+    "video": "TJR1oYDDTwg.mp4",
+    "video_key": "TJR1oYDDTwg",
+    "video_path": "TJR1oYDDTwg.mp4",
+    "question": "How many birds are there flying at the beginning of the video?",
+    "options": [
+      [
+        "A",
+        "6"
+      ],
+      [
+        "B",
+        "4"
+      ],
+      [
+        "C",
+        "5"
+      ],
+      [
+        "D",
+        "8"
+      ]
+    ],
+    "answer": "C",
+    "question_type": "counting",
+    "time_reference": "00:15-00:28",
+    "raw_item": {
+      "video_path": "TJR1oYDDTwg.mp4",
+      "uid": "251",
+      "question": "How many birds are there flying at the beginning of the video?\n(A) 6\n(B) 4\n(C) 5\n(D) 8",
+      "question_type": [
+        "entity recognition"
+      ],
+      "answer": "C",
+      "time_reference": "00:15-00:28",
+      "type": "cartoon",
+      "key": "TJR1oYDDTwg"
+    },
+    "question_with_inline_options": "How many birds are there flying at the beginning of the video?\n(A) 6\n(B) 4\n(C) 5\n(D) 8"
+  },
+  {
+    "id": "official_0014",
+    "video": "TJR1oYDDTwg.mp4",
+    "video_key": "TJR1oYDDTwg",
+    "video_path": "TJR1oYDDTwg.mp4",
+    "question": "What festival are they celebrating?",
+    "options": [
+      [
+        "A",
+        "Mid-Autumn Festival"
+      ],
+      [
+        "B",
+        "Christmas Day"
+      ],
+      [
+        "C",
+        "All Saints' Day"
+      ],
+      [
+        "D",
+        "Valentine's day"
+      ]
+    ],
+    "answer": "B",
+    "question_type": "cause_reason",
+    "time_reference": "21:21-23:15",
+    "raw_item": {
+      "video_path": "TJR1oYDDTwg.mp4",
+      "uid": "278",
+      "question": "What festival are they celebrating?\n(A) Mid-Autumn Festival\n(B) Christmas Day\n(C) All Saints' Day\n(D) Valentine's day",
+      "question_type": [
+        "reasoning"
+      ],
+      "answer": "B",
+      "time_reference": "21:21-23:15",
+      "type": "cartoon",
+      "key": "TJR1oYDDTwg"
+    },
+    "question_with_inline_options": "What festival are they celebrating?\n(A) Mid-Autumn Festival\n(B) Christmas Day\n(C) All Saints' Day\n(D) Valentine's day"
+  },
+  {
+    "id": "official_0015",
+    "video": "TJR1oYDDTwg.mp4",
+    "video_key": "TJR1oYDDTwg",
+    "video_path": "TJR1oYDDTwg.mp4",
+    "question": "Who grasps the villain in the net?",
+    "options": [
+      [
+        "A",
+        "Green dragon and light blue dragon"
+      ],
+      [
+        "B",
+        "Yellow dragon and light blue dragon"
+      ],
+      [
+        "C",
+        "The prince and the pink dragon"
+      ],
+      [
+        "D",
+        "Yellow dragon and pink dragon"
+      ]
+    ],
+    "answer": "B",
+    "question_type": "other",
+    "time_reference": "13:28-13:32",
+    "raw_item": {
+      "video_path": "TJR1oYDDTwg.mp4",
+      "uid": "267",
+      "question": "Who grasps the villain in the net?\n(A) Green dragon and light blue dragon\n(B) Yellow dragon and light blue dragon\n(C) The prince and the pink dragon\n(D) Yellow dragon and pink dragon",
+      "question_type": [
+        "entity recognition"
+      ],
+      "answer": "B",
+      "time_reference": "13:28-13:32",
+      "type": "cartoon",
+      "key": "TJR1oYDDTwg"
+    },
+    "question_with_inline_options": "Who grasps the villain in the net?\n(A) Green dragon and light blue dragon\n(B) Yellow dragon and light blue dragon\n(C) The prince and the pink dragon\n(D) Yellow dragon and pink dragon"
+  },
+  {
+    "id": "official_0016",
+    "video": "TJR1oYDDTwg.mp4",
+    "video_key": "TJR1oYDDTwg",
+    "video_path": "TJR1oYDDTwg.mp4",
+    "question": "What color are the clothes on the two men playing the trumpet?",
+    "options": [
+      [
+        "A",
+        "Blue"
+      ],
+      [
+        "B",
+        "Yellow"
+      ],
+      [
+        "C",
+        "Lilac"
+      ],
+      [
+        "D",
+        "Rose"
+      ]
+    ],
+    "answer": "C",
+    "question_type": "scene_object",
+    "time_reference": "01:53-01:56",
+    "raw_item": {
+      "video_path": "TJR1oYDDTwg.mp4",
+      "uid": "254",
+      "question": "What color are the clothes on the two men playing the trumpet?\n(A) Blue\n(B) Yellow\n(C) Lilac\n(D) Rose",
+      "question_type": [
+        "entity recognition"
+      ],
+      "answer": "C",
+      "time_reference": "01:53-01:56",
+      "type": "cartoon",
+      "key": "TJR1oYDDTwg"
+    },
+    "question_with_inline_options": "What color are the clothes on the two men playing the trumpet?\n(A) Blue\n(B) Yellow\n(C) Lilac\n(D) Rose"
+  },
+  {
+    "id": "official_0017",
+    "video": "TJR1oYDDTwg.mp4",
+    "video_key": "TJR1oYDDTwg",
+    "video_path": "TJR1oYDDTwg.mp4",
+    "question": "Why is the king so happy after using the telescope?",
+    "options": [
+      [
+        "A",
+        "Because the king is curious about binoculars"
+      ],
+      [
+        "B",
+        "Because he sees his children greeting him"
+      ],
+      [
+        "C",
+        "Because he sees the first prize"
+      ],
+      [
+        "D",
+        "The villain makes a fool of himself because his sleigh caught fire"
+      ]
+    ],
+    "answer": "D",
+    "question_type": "action_chain",
+    "time_reference": "38:04-38:13",
+    "raw_item": {
+      "video_path": "TJR1oYDDTwg.mp4",
+      "uid": "277",
+      "question": "Why is the king so happy after using the telescope?\n(A) Because the king is curious about binoculars\n(B) Because he sees his children greeting him\n(C) Because he sees the first prize\n(D) The villain makes a fool of himself because his sleigh caught fire",
+      "question_type": [
+        "event understanding"
+      ],
+      "answer": "D",
+      "time_reference": "38:04-38:13",
+      "type": "cartoon",
+      "key": "TJR1oYDDTwg"
+    },
+    "question_with_inline_options": "Why is the king so happy after using the telescope?\n(A) Because the king is curious about binoculars\n(B) Because he sees his children greeting him\n(C) Because he sees the first prize\n(D) The villain makes a fool of himself because his sleigh caught fire"
+  },
+  {
+    "id": "official_0018",
+    "video": "TJR1oYDDTwg.mp4",
+    "video_key": "TJR1oYDDTwg",
+    "video_path": "TJR1oYDDTwg.mp4",
+    "question": "Does the Queen go first or does the king go first?",
+    "options": [
+      [
+        "A",
+        "Their children"
+      ],
+      [
+        "B",
+        "King"
+      ],
+      [
+        "C",
+        "Queen"
+      ],
+      [
+        "D",
+        "They walk side by side"
+      ]
+    ],
+    "answer": "C",
+    "question_type": "cause_reason",
+    "time_reference": "02:00-02:07",
+    "raw_item": {
+      "video_path": "TJR1oYDDTwg.mp4",
+      "uid": "255",
+      "question": "Does the Queen go first or does the king go first?\n(A) Their children\n(B) King\n(C) Queen\n(D) They walk side by side",
+      "question_type": [
+        "reasoning",
+        "entity recognition"
+      ],
+      "answer": "C",
+      "time_reference": "02:00-02:07",
+      "type": "cartoon",
+      "key": "TJR1oYDDTwg"
+    },
+    "question_with_inline_options": "Does the Queen go first or does the king go first?\n(A) Their children\n(B) King\n(C) Queen\n(D) They walk side by side"
+  },
+  {
+    "id": "official_0019",
+    "video": "TJR1oYDDTwg.mp4",
+    "video_key": "TJR1oYDDTwg",
+    "video_path": "TJR1oYDDTwg.mp4",
+    "question": "What instruments do the prince and princess play respectively during the performance?",
+    "options": [
+      [
+        "A",
+        "Both the prince and the princess are playing the guitar"
+      ],
+      [
+        "B",
+        "The prince is playing the guitar and the princess is playing the drum set"
+      ],
+      [
+        "C",
+        "The prince is playing the guitar and the princess is playing the piano"
+      ],
+      [
+        "D",
+        "The prince plays the drum set and the princess plays the guitar"
+      ]
+    ],
+    "answer": "D",
+    "question_type": "other",
+    "time_reference": "20:04-20:13",
+    "raw_item": {
+      "video_path": "TJR1oYDDTwg.mp4",
+      "uid": "273",
+      "question": "What instruments do the prince and princess play respectively during the performance?\n(A) Both the prince and the princess are playing the guitar\n(B) The prince is playing the guitar and the princess is playing the drum set\n(C) The prince is playing the guitar and the princess is playing the piano\n(D) The prince plays the drum set and the princess plays the guitar",
+      "question_type": [
+        "entity recognition"
+      ],
+      "answer": "D",
+      "time_reference": "20:04-20:13",
+      "type": "cartoon",
+      "key": "TJR1oYDDTwg"
+    },
+    "question_with_inline_options": "What instruments do the prince and princess play respectively during the performance?\n(A) Both the prince and the princess are playing the guitar\n(B) The prince is playing the guitar and the princess is playing the drum set\n(C) The prince is playing the guitar and the princess is playing the piano\n(D) The prince plays the drum set and the princess plays the guitar"
+  },
+  {
+    "id": "official_0020",
+    "video": "Va_9Q6ekm60.mp4",
+    "video_key": "Va_9Q6ekm60",
+    "video_path": "Va_9Q6ekm60.mp4",
+    "question": "What is in the pocket of the shop assistant's clothe?",
+    "options": [
+      [
+        "A",
+        "A lollipop"
+      ],
+      [
+        "B",
+        "A pencil"
+      ],
+      [
+        "C",
+        "A protein bar"
+      ],
+      [
+        "D",
+        "A signature pen"
+      ]
+    ],
+    "answer": "D",
+    "question_type": "visible_text",
+    "time_reference": "04:26-04:30",
+    "raw_item": {
+      "video_path": "Va_9Q6ekm60.mp4",
+      "uid": "3312",
+      "question": "What is in the pocket of the shop assistant's clothe?\n(A) A lollipop\n(B) A pencil\n(C) A protein bar\n(D) A signature pen",
+      "question_type": [
+        "entity recognition"
+      ],
+      "answer": "D",
+      "time_reference": "04:26-04:30",
+      "type": "selfmedia",
+      "key": "Va_9Q6ekm60"
+    },
+    "question_with_inline_options": "What is in the pocket of the shop assistant's clothe?\n(A) A lollipop\n(B) A pencil\n(C) A protein bar\n(D) A signature pen"
+  },
+  {
+    "id": "official_0021",
+    "video": "Va_9Q6ekm60.mp4",
+    "video_key": "Va_9Q6ekm60",
+    "video_path": "Va_9Q6ekm60.mp4",
+    "question": "What color shovels are used to scrape the liquid in the container?",
+    "options": [
+      [
+        "A",
+        "Orange and red"
+      ],
+      [
+        "B",
+        "Red and white"
+      ],
+      [
+        "C",
+        "Orange and yellow"
+      ],
+      [
+        "D",
+        "Red and yellow"
+      ]
+    ],
+    "answer": "C",
+    "question_type": "scene_object",
+    "time_reference": "02:39-02:50",
+    "raw_item": {
+      "video_path": "Va_9Q6ekm60.mp4",
+      "uid": "3311",
+      "question": "What color shovels are used to scrape the liquid in the container?\n(A) Orange and red\n(B) Red and white\n(C) Orange and yellow\n(D) Red and yellow",
+      "question_type": [
+        "entity recognition"
+      ],
+      "answer": "C",
+      "time_reference": "02:39-02:50",
+      "type": "selfmedia",
+      "key": "Va_9Q6ekm60"
+    },
+    "question_with_inline_options": "What color shovels are used to scrape the liquid in the container?\n(A) Orange and red\n(B) Red and white\n(C) Orange and yellow\n(D) Red and yellow"
+  },
+  {
+    "id": "official_0022",
+    "video": "Va_9Q6ekm60.mp4",
+    "video_key": "Va_9Q6ekm60",
+    "video_path": "Va_9Q6ekm60.mp4",
+    "question": "What does the the shop assistant do after assembling the ice cream machine?",
+    "options": [
+      [
+        "A",
+        "Pour four glasses of water"
+      ],
+      [
+        "B",
+        "Open four glasses of water"
+      ],
+      [
+        "C",
+        "Pour four boxes of milk"
+      ],
+      [
+        "D",
+        "Open four boxes of milk"
+      ]
+    ],
+    "answer": "D",
+    "question_type": "action_chain",
+    "time_reference": "00:26-01:14",
+    "raw_item": {
+      "video_path": "Va_9Q6ekm60.mp4",
+      "uid": "3308",
+      "question": "What does the the shop assistant do after assembling the ice cream machine?\n(A) Pour four glasses of water\n(B) Open four glasses of water\n(C) Pour four boxes of milk\n(D) Open four boxes of milk",
+      "question_type": [
+        "event understanding"
+      ],
+      "answer": "D",
+      "time_reference": "00:26-01:14",
+      "type": "selfmedia",
+      "key": "Va_9Q6ekm60"
+    },
+    "question_with_inline_options": "What does the the shop assistant do after assembling the ice cream machine?\n(A) Pour four glasses of water\n(B) Open four glasses of water\n(C) Pour four boxes of milk\n(D) Open four boxes of milk"
+  },
+  {
+    "id": "official_0023",
+    "video": "Va_9Q6ekm60.mp4",
+    "video_key": "Va_9Q6ekm60",
+    "video_path": "Va_9Q6ekm60.mp4",
+    "question": "How many Taiyaki cookies does the shop assistant cook?",
+    "options": [
+      [
+        "A",
+        "30"
+      ],
+      [
+        "B",
+        "18"
+      ],
+      [
+        "C",
+        "40"
+      ],
+      [
+        "D",
+        "20"
+      ]
+    ],
+    "answer": "A",
+    "question_type": "counting",
+    "time_reference": "27:00-27:05",
+    "raw_item": {
+      "video_path": "Va_9Q6ekm60.mp4",
+      "uid": "3320",
+      "question": "How many Taiyaki cookies does the shop assistant cook?\n(A) 30\n(B) 18\n(C) 40\n(D) 20",
+      "question_type": [
+        "entity recognition"
+      ],
+      "answer": "A",
+      "time_reference": "27:00-27:05",
+      "type": "selfmedia",
+      "key": "Va_9Q6ekm60"
+    },
+    "question_with_inline_options": "How many Taiyaki cookies does the shop assistant cook?\n(A) 30\n(B) 18\n(C) 40\n(D) 20"
+  },
+  {
+    "id": "official_0024",
+    "video": "Va_9Q6ekm60.mp4",
+    "video_key": "Va_9Q6ekm60",
+    "video_path": "Va_9Q6ekm60.mp4",
+    "question": "What is the maximum number of Taiyaki can the machine cook at the same time?",
+    "options": [
+      [
+        "A",
+        "8"
+      ],
+      [
+        "B",
+        "3"
+      ],
+      [
+        "C",
+        "4"
+      ],
+      [
+        "D",
+        "6"
+      ]
+    ],
+    "answer": "C",
+    "question_type": "cause_reason",
+    "time_reference": "29:00-30:22",
+    "raw_item": {
+      "video_path": "Va_9Q6ekm60.mp4",
+      "uid": "3322",
+      "question": "What is the maximum number of Taiyaki can the machine cook at the same time?\n(A) 8\n(B) 3\n(C) 4\n(D) 6",
+      "question_type": [
+        "reasoning"
+      ],
+      "answer": "C",
+      "time_reference": "29:00-30:22",
+      "type": "selfmedia",
+      "key": "Va_9Q6ekm60"
+    },
+    "question_with_inline_options": "What is the maximum number of Taiyaki can the machine cook at the same time?\n(A) 8\n(B) 3\n(C) 4\n(D) 6"
+  },
+  {
+    "id": "official_0025",
+    "video": "Va_9Q6ekm60.mp4",
+    "video_key": "Va_9Q6ekm60",
+    "video_path": "Va_9Q6ekm60.mp4",
+    "question": "What's hanging on the back of the kitchen's wall?",
+    "options": [
+      [
+        "A",
+        "Whiteboard, air conditioner, and clock"
+      ],
+      [
+        "B",
+        "Whiteboard and clock"
+      ],
+      [
+        "C",
+        "Blackboard, air conditioner, and clock"
+      ],
+      [
+        "D",
+        "Blackboard and clock"
+      ]
+    ],
+    "answer": "B",
+    "question_type": "other",
+    "time_reference": "03:30-03:45",
+    "raw_item": {
+      "video_path": "Va_9Q6ekm60.mp4",
+      "uid": "3332",
+      "question": "What's hanging on the back of the kitchen's wall?\n(A) Whiteboard, air conditioner, and clock\n(B) Whiteboard and clock\n(C) Blackboard, air conditioner, and clock\n(D) Blackboard and clock",
+      "question_type": [
+        "entity recognition"
+      ],
+      "answer": "B",
+      "time_reference": "03:30-03:45",
+      "type": "selfmedia",
+      "key": "Va_9Q6ekm60"
+    },
+    "question_with_inline_options": "What's hanging on the back of the kitchen's wall?\n(A) Whiteboard, air conditioner, and clock\n(B) Whiteboard and clock\n(C) Blackboard, air conditioner, and clock\n(D) Blackboard and clock"
+  },
+  {
+    "id": "official_0026",
+    "video": "Va_9Q6ekm60.mp4",
+    "video_key": "Va_9Q6ekm60",
+    "video_path": "Va_9Q6ekm60.mp4",
+    "question": "What does the shop assistant do after cooking the Taiyaki cookies?",
+    "options": [
+      [
+        "A",
+        "She mixes cream and suger for ice cream"
+      ],
+      [
+        "B",
+        "She uses the machine to make Taiyaki"
+      ],
+      [
+        "C",
+        "She cleans up the stage"
+      ],
+      [
+        "D",
+        "She packs ingredients in containers"
+      ]
+    ],
+    "answer": "D",
+    "question_type": "action_chain",
+    "time_reference": "27:40-28:30",
+    "raw_item": {
+      "video_path": "Va_9Q6ekm60.mp4",
+      "uid": "3321",
+      "question": "What does the shop assistant do after cooking the Taiyaki cookies?\n(A) She mixes cream and suger for ice cream\n(B) She uses the machine to make Taiyaki\n(C) She cleans up the stage\n(D) She packs ingredients in containers",
+      "question_type": [
+        "event understanding"
+      ],
+      "answer": "D",
+      "time_reference": "27:40-28:30",
+      "type": "selfmedia",
+      "key": "Va_9Q6ekm60"
+    },
+    "question_with_inline_options": "What does the shop assistant do after cooking the Taiyaki cookies?\n(A) She mixes cream and suger for ice cream\n(B) She uses the machine to make Taiyaki\n(C) She cleans up the stage\n(D) She packs ingredients in containers"
+  },
+  {
+    "id": "official_0027",
+    "video": "Va_9Q6ekm60.mp4",
+    "video_key": "Va_9Q6ekm60",
+    "video_path": "Va_9Q6ekm60.mp4",
+    "question": "Which store, the one next to the Taiyaki shop, opens before the Taiyaki shop does?",
+    "options": [
+      [
+        "A",
+        "Supermarket"
+      ],
+      [
+        "B",
+        "Clothing store"
+      ],
+      [
+        "C",
+        "Cafe"
+      ],
+      [
+        "D",
+        "Bookshop"
+      ]
+    ],
+    "answer": "B",
+    "question_type": "cause_reason",
+    "time_reference": "00:13-00:20",
+    "raw_item": {
+      "video_path": "Va_9Q6ekm60.mp4",
+      "uid": "3326",
+      "question": "Which store, the one next to the Taiyaki shop, opens before the Taiyaki shop does?\n(A) Supermarket\n(B) Clothing store\n(C) Cafe\n(D) Bookshop",
+      "question_type": [
+        "entity recognition",
+        "reasoning"
+      ],
+      "answer": "B",
+      "time_reference": "00:13-00:20",
+      "type": "selfmedia",
+      "key": "Va_9Q6ekm60"
+    },
+    "question_with_inline_options": "Which store, the one next to the Taiyaki shop, opens before the Taiyaki shop does?\n(A) Supermarket\n(B) Clothing store\n(C) Cafe\n(D) Bookshop"
+  },
+  {
+    "id": "official_0028",
+    "video": "Va_9Q6ekm60.mp4",
+    "video_key": "Va_9Q6ekm60",
+    "video_path": "Va_9Q6ekm60.mp4",
+    "question": "What is the video about?",
+    "options": [
+      [
+        "A",
+        "This video mainly talks about the preparation work of Taiyaki store before the opening of the day, including (in time order) assembling the ice cream machine, making cookies with Taiyaki patterns and preparing ingredients for final Taiyaki ice cream"
+      ],
+      [
+        "B",
+        "This video mainly talks about the preparation work of Taiyaki store before the opening of the day, including (in time order) making cookies with Taiyaki patterns, assembling the ice cream machine, and preparing ingredients for final Taiyaki ice cream"
+      ],
+      [
+        "C",
+        "This video mainly talks about the preparation work of Taiyaki store before the opening of the day, including (in time order) making cookies with Taiyaki patterns, assembling the ice cream machine, making sauces and preparing ingredients for final Taiyaki ice cream"
+      ],
+      [
+        "D",
+        "This video mainly talks about the preparation work of Taiyaki store before the opening of the day, including (in time order) preparing ingredients for final Taiyaki ice cream, assembling the ice cream machine, and making cookies with Taiyaki patterns"
+      ]
+    ],
+    "answer": "A",
+    "question_type": "other",
+    "time_reference": "00:00-35:30",
+    "raw_item": {
+      "video_path": "Va_9Q6ekm60.mp4",
+      "uid": "3329",
+      "question": "What is the video about?\n(A) This video mainly talks about the preparation work of Taiyaki store before the opening of the day, including (in time order) assembling the ice cream machine, making cookies with Taiyaki patterns and preparing ingredients for final Taiyaki ice cream\n(B) This video mainly talks about the preparation work of Taiyaki store before the opening of the day, including (in time order) making cookies with Taiyaki patterns, assembling the ice cream machine, and preparing ingredients for final Taiyaki ice cream\n(C) This video mainly talks about the preparation work of Taiyaki store before the opening of the day, including (in time order) making cookies with Taiyaki patterns, assembling the ice cream machine, making sauces and preparing ingredients for final Taiyaki ice cream\n(D) This video mainly talks about the preparation work of Taiyaki store before the opening of the day, including (in time order) preparing ingredients for final Taiyaki ice cream, assembling the ice cream machine, and making cookies with Taiyaki patterns",
+      "question_type": [
+        "summarization"
+      ],
+      "answer": "A",
+      "time_reference": "00:00-35:30",
+      "type": "selfmedia",
+      "key": "Va_9Q6ekm60"
+    },
+    "question_with_inline_options": "What is the video about?\n(A) This video mainly talks about the preparation work of Taiyaki store before the opening of the day, including (in time order) assembling the ice cream machine, making cookies with Taiyaki patterns and preparing ingredients for final Taiyaki ice cream\n(B) This video mainly talks about the preparation work of Taiyaki store before the opening of the day, including (in time order) making cookies with Taiyaki patterns, assembling the ice cream machine, and preparing ingredients for final Taiyaki ice cream\n(C) This video mainly talks about the preparation work of Taiyaki store before the opening of the day, including (in time order) making cookies with Taiyaki patterns, assembling the ice cream machine, making sauces and preparing ingredients for final Taiyaki ice cream\n(D) This video mainly talks about the preparation work of Taiyaki store before the opening of the day, including (in time order) preparing ingredients for final Taiyaki ice cream, assembling the ice cream machine, and making cookies with Taiyaki patterns"
+  },
+  {
+    "id": "official_0029",
+    "video": "Va_9Q6ekm60.mp4",
+    "video_key": "Va_9Q6ekm60",
+    "video_path": "Va_9Q6ekm60.mp4",
+    "question": "What is the second non-flour substance the shop assistant put into the mixing bowl?",
+    "options": [
+      [
+        "A",
+        "Milk"
+      ],
+      [
+        "B",
+        "Water"
+      ],
+      [
+        "C",
+        "Egg"
+      ],
+      [
+        "D",
+        "Butter"
+      ]
+    ],
+    "answer": "D",
+    "question_type": "action_chain",
+    "time_reference": "09:38-10:10",
+    "raw_item": {
+      "video_path": "Va_9Q6ekm60.mp4",
+      "uid": "3314",
+      "question": "What is the second non-flour substance the shop assistant put into the mixing bowl?\n(A) Milk\n(B) Water\n(C) Egg\n(D) Butter",
+      "question_type": [
+        "event understanding",
+        "entity recognition"
+      ],
+      "answer": "D",
+      "time_reference": "09:38-10:10",
+      "type": "selfmedia",
+      "key": "Va_9Q6ekm60"
+    },
+    "question_with_inline_options": "What is the second non-flour substance the shop assistant put into the mixing bowl?\n(A) Milk\n(B) Water\n(C) Egg\n(D) Butter"
+  }
+]
