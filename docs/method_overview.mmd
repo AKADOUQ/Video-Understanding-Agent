@@ -1,0 +1,12 @@
+flowchart LR
+    V[Long Video] --> MBuild[Structured Segment Memory Builder]
+    MBuild --> PMem[Persistent Video Memory\n60s segment granularity]
+    Q[Question + Options] --> Retrieve[Question-aware Memory Retrieval]
+    PMem --> Retrieve
+    Retrieve --> Expand[Neighbor Expansion]
+    Expand --> Tool[Temporal Re-observation Tool\nlocal frame sampling]
+    Tool --> Final[Final Visual QA]
+    Final --> Ans[Answer A/B/C/D]
+
+    V -. uniform frames .-> U32[Uniform U32 / U64 Baseline]
+    U32 --> Ans

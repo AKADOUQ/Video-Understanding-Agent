@@ -1,0 +1,414 @@
+[
+  {
+    "id": "official_0020",
+    "video": "Va_9Q6ekm60.mp4",
+    "video_key": "Va_9Q6ekm60",
+    "video_path": "Va_9Q6ekm60.mp4",
+    "question": "What is in the pocket of the shop assistant's clothe?",
+    "options": [
+      [
+        "A",
+        "A lollipop"
+      ],
+      [
+        "B",
+        "A pencil"
+      ],
+      [
+        "C",
+        "A protein bar"
+      ],
+      [
+        "D",
+        "A signature pen"
+      ]
+    ],
+    "answer": "D",
+    "question_type": "visible_text",
+    "time_reference": "04:26-04:30",
+    "raw_item": {
+      "video_path": "Va_9Q6ekm60.mp4",
+      "uid": "3312",
+      "question": "What is in the pocket of the shop assistant's clothe?\n(A) A lollipop\n(B) A pencil\n(C) A protein bar\n(D) A signature pen",
+      "question_type": [
+        "entity recognition"
+      ],
+      "answer": "D",
+      "time_reference": "04:26-04:30",
+      "type": "selfmedia",
+      "key": "Va_9Q6ekm60"
+    },
+    "question_with_inline_options": "What is in the pocket of the shop assistant's clothe?\n(A) A lollipop\n(B) A pencil\n(C) A protein bar\n(D) A signature pen"
+  },
+  {
+    "id": "official_0021",
+    "video": "Va_9Q6ekm60.mp4",
+    "video_key": "Va_9Q6ekm60",
+    "video_path": "Va_9Q6ekm60.mp4",
+    "question": "What color shovels are used to scrape the liquid in the container?",
+    "options": [
+      [
+        "A",
+        "Orange and red"
+      ],
+      [
+        "B",
+        "Red and white"
+      ],
+      [
+        "C",
+        "Orange and yellow"
+      ],
+      [
+        "D",
+        "Red and yellow"
+      ]
+    ],
+    "answer": "C",
+    "question_type": "scene_object",
+    "time_reference": "02:39-02:50",
+    "raw_item": {
+      "video_path": "Va_9Q6ekm60.mp4",
+      "uid": "3311",
+      "question": "What color shovels are used to scrape the liquid in the container?\n(A) Orange and red\n(B) Red and white\n(C) Orange and yellow\n(D) Red and yellow",
+      "question_type": [
+        "entity recognition"
+      ],
+      "answer": "C",
+      "time_reference": "02:39-02:50",
+      "type": "selfmedia",
+      "key": "Va_9Q6ekm60"
+    },
+    "question_with_inline_options": "What color shovels are used to scrape the liquid in the container?\n(A) Orange and red\n(B) Red and white\n(C) Orange and yellow\n(D) Red and yellow"
+  },
+  {
+    "id": "official_0022",
+    "video": "Va_9Q6ekm60.mp4",
+    "video_key": "Va_9Q6ekm60",
+    "video_path": "Va_9Q6ekm60.mp4",
+    "question": "What does the the shop assistant do after assembling the ice cream machine?",
+    "options": [
+      [
+        "A",
+        "Pour four glasses of water"
+      ],
+      [
+        "B",
+        "Open four glasses of water"
+      ],
+      [
+        "C",
+        "Pour four boxes of milk"
+      ],
+      [
+        "D",
+        "Open four boxes of milk"
+      ]
+    ],
+    "answer": "D",
+    "question_type": "action_chain",
+    "time_reference": "00:26-01:14",
+    "raw_item": {
+      "video_path": "Va_9Q6ekm60.mp4",
+      "uid": "3308",
+      "question": "What does the the shop assistant do after assembling the ice cream machine?\n(A) Pour four glasses of water\n(B) Open four glasses of water\n(C) Pour four boxes of milk\n(D) Open four boxes of milk",
+      "question_type": [
+        "event understanding"
+      ],
+      "answer": "D",
+      "time_reference": "00:26-01:14",
+      "type": "selfmedia",
+      "key": "Va_9Q6ekm60"
+    },
+    "question_with_inline_options": "What does the the shop assistant do after assembling the ice cream machine?\n(A) Pour four glasses of water\n(B) Open four glasses of water\n(C) Pour four boxes of milk\n(D) Open four boxes of milk"
+  },
+  {
+    "id": "official_0023",
+    "video": "Va_9Q6ekm60.mp4",
+    "video_key": "Va_9Q6ekm60",
+    "video_path": "Va_9Q6ekm60.mp4",
+    "question": "How many Taiyaki cookies does the shop assistant cook?",
+    "options": [
+      [
+        "A",
+        "30"
+      ],
+      [
+        "B",
+        "18"
+      ],
+      [
+        "C",
+        "40"
+      ],
+      [
+        "D",
+        "20"
+      ]
+    ],
+    "answer": "A",
+    "question_type": "counting",
+    "time_reference": "27:00-27:05",
+    "raw_item": {
+      "video_path": "Va_9Q6ekm60.mp4",
+      "uid": "3320",
+      "question": "How many Taiyaki cookies does the shop assistant cook?\n(A) 30\n(B) 18\n(C) 40\n(D) 20",
+      "question_type": [
+        "entity recognition"
+      ],
+      "answer": "A",
+      "time_reference": "27:00-27:05",
+      "type": "selfmedia",
+      "key": "Va_9Q6ekm60"
+    },
+    "question_with_inline_options": "How many Taiyaki cookies does the shop assistant cook?\n(A) 30\n(B) 18\n(C) 40\n(D) 20"
+  },
+  {
+    "id": "official_0024",
+    "video": "Va_9Q6ekm60.mp4",
+    "video_key": "Va_9Q6ekm60",
+    "video_path": "Va_9Q6ekm60.mp4",
+    "question": "What is the maximum number of Taiyaki can the machine cook at the same time?",
+    "options": [
+      [
+        "A",
+        "8"
+      ],
+      [
+        "B",
+        "3"
+      ],
+      [
+        "C",
+        "4"
+      ],
+      [
+        "D",
+        "6"
+      ]
+    ],
+    "answer": "C",
+    "question_type": "cause_reason",
+    "time_reference": "29:00-30:22",
+    "raw_item": {
+      "video_path": "Va_9Q6ekm60.mp4",
+      "uid": "3322",
+      "question": "What is the maximum number of Taiyaki can the machine cook at the same time?\n(A) 8\n(B) 3\n(C) 4\n(D) 6",
+      "question_type": [
+        "reasoning"
+      ],
+      "answer": "C",
+      "time_reference": "29:00-30:22",
+      "type": "selfmedia",
+      "key": "Va_9Q6ekm60"
+    },
+    "question_with_inline_options": "What is the maximum number of Taiyaki can the machine cook at the same time?\n(A) 8\n(B) 3\n(C) 4\n(D) 6"
+  },
+  {
+    "id": "official_0025",
+    "video": "Va_9Q6ekm60.mp4",
+    "video_key": "Va_9Q6ekm60",
+    "video_path": "Va_9Q6ekm60.mp4",
+    "question": "What's hanging on the back of the kitchen's wall?",
+    "options": [
+      [
+        "A",
+        "Whiteboard, air conditioner, and clock"
+      ],
+      [
+        "B",
+        "Whiteboard and clock"
+      ],
+      [
+        "C",
+        "Blackboard, air conditioner, and clock"
+      ],
+      [
+        "D",
+        "Blackboard and clock"
+      ]
+    ],
+    "answer": "B",
+    "question_type": "other",
+    "time_reference": "03:30-03:45",
+    "raw_item": {
+      "video_path": "Va_9Q6ekm60.mp4",
+      "uid": "3332",
+      "question": "What's hanging on the back of the kitchen's wall?\n(A) Whiteboard, air conditioner, and clock\n(B) Whiteboard and clock\n(C) Blackboard, air conditioner, and clock\n(D) Blackboard and clock",
+      "question_type": [
+        "entity recognition"
+      ],
+      "answer": "B",
+      "time_reference": "03:30-03:45",
+      "type": "selfmedia",
+      "key": "Va_9Q6ekm60"
+    },
+    "question_with_inline_options": "What's hanging on the back of the kitchen's wall?\n(A) Whiteboard, air conditioner, and clock\n(B) Whiteboard and clock\n(C) Blackboard, air conditioner, and clock\n(D) Blackboard and clock"
+  },
+  {
+    "id": "official_0026",
+    "video": "Va_9Q6ekm60.mp4",
+    "video_key": "Va_9Q6ekm60",
+    "video_path": "Va_9Q6ekm60.mp4",
+    "question": "What does the shop assistant do after cooking the Taiyaki cookies?",
+    "options": [
+      [
+        "A",
+        "She mixes cream and suger for ice cream"
+      ],
+      [
+        "B",
+        "She uses the machine to make Taiyaki"
+      ],
+      [
+        "C",
+        "She cleans up the stage"
+      ],
+      [
+        "D",
+        "She packs ingredients in containers"
+      ]
+    ],
+    "answer": "D",
+    "question_type": "action_chain",
+    "time_reference": "27:40-28:30",
+    "raw_item": {
+      "video_path": "Va_9Q6ekm60.mp4",
+      "uid": "3321",
+      "question": "What does the shop assistant do after cooking the Taiyaki cookies?\n(A) She mixes cream and suger for ice cream\n(B) She uses the machine to make Taiyaki\n(C) She cleans up the stage\n(D) She packs ingredients in containers",
+      "question_type": [
+        "event understanding"
+      ],
+      "answer": "D",
+      "time_reference": "27:40-28:30",
+      "type": "selfmedia",
+      "key": "Va_9Q6ekm60"
+    },
+    "question_with_inline_options": "What does the shop assistant do after cooking the Taiyaki cookies?\n(A) She mixes cream and suger for ice cream\n(B) She uses the machine to make Taiyaki\n(C) She cleans up the stage\n(D) She packs ingredients in containers"
+  },
+  {
+    "id": "official_0027",
+    "video": "Va_9Q6ekm60.mp4",
+    "video_key": "Va_9Q6ekm60",
+    "video_path": "Va_9Q6ekm60.mp4",
+    "question": "Which store, the one next to the Taiyaki shop, opens before the Taiyaki shop does?",
+    "options": [
+      [
+        "A",
+        "Supermarket"
+      ],
+      [
+        "B",
+        "Clothing store"
+      ],
+      [
+        "C",
+        "Cafe"
+      ],
+      [
+        "D",
+        "Bookshop"
+      ]
+    ],
+    "answer": "B",
+    "question_type": "cause_reason",
+    "time_reference": "00:13-00:20",
+    "raw_item": {
+      "video_path": "Va_9Q6ekm60.mp4",
+      "uid": "3326",
+      "question": "Which store, the one next to the Taiyaki shop, opens before the Taiyaki shop does?\n(A) Supermarket\n(B) Clothing store\n(C) Cafe\n(D) Bookshop",
+      "question_type": [
+        "entity recognition",
+        "reasoning"
+      ],
+      "answer": "B",
+      "time_reference": "00:13-00:20",
+      "type": "selfmedia",
+      "key": "Va_9Q6ekm60"
+    },
+    "question_with_inline_options": "Which store, the one next to the Taiyaki shop, opens before the Taiyaki shop does?\n(A) Supermarket\n(B) Clothing store\n(C) Cafe\n(D) Bookshop"
+  },
+  {
+    "id": "official_0028",
+    "video": "Va_9Q6ekm60.mp4",
+    "video_key": "Va_9Q6ekm60",
+    "video_path": "Va_9Q6ekm60.mp4",
+    "question": "What is the video about?",
+    "options": [
+      [
+        "A",
+        "This video mainly talks about the preparation work of Taiyaki store before the opening of the day, including (in time order) assembling the ice cream machine, making cookies with Taiyaki patterns and preparing ingredients for final Taiyaki ice cream"
+      ],
+      [
+        "B",
+        "This video mainly talks about the preparation work of Taiyaki store before the opening of the day, including (in time order) making cookies with Taiyaki patterns, assembling the ice cream machine, and preparing ingredients for final Taiyaki ice cream"
+      ],
+      [
+        "C",
+        "This video mainly talks about the preparation work of Taiyaki store before the opening of the day, including (in time order) making cookies with Taiyaki patterns, assembling the ice cream machine, making sauces and preparing ingredients for final Taiyaki ice cream"
+      ],
+      [
+        "D",
+        "This video mainly talks about the preparation work of Taiyaki store before the opening of the day, including (in time order) preparing ingredients for final Taiyaki ice cream, assembling the ice cream machine, and making cookies with Taiyaki patterns"
+      ]
+    ],
+    "answer": "A",
+    "question_type": "other",
+    "time_reference": "00:00-35:30",
+    "raw_item": {
+      "video_path": "Va_9Q6ekm60.mp4",
+      "uid": "3329",
+      "question": "What is the video about?\n(A) This video mainly talks about the preparation work of Taiyaki store before the opening of the day, including (in time order) assembling the ice cream machine, making cookies with Taiyaki patterns and preparing ingredients for final Taiyaki ice cream\n(B) This video mainly talks about the preparation work of Taiyaki store before the opening of the day, including (in time order) making cookies with Taiyaki patterns, assembling the ice cream machine, and preparing ingredients for final Taiyaki ice cream\n(C) This video mainly talks about the preparation work of Taiyaki store before the opening of the day, including (in time order) making cookies with Taiyaki patterns, assembling the ice cream machine, making sauces and preparing ingredients for final Taiyaki ice cream\n(D) This video mainly talks about the preparation work of Taiyaki store before the opening of the day, including (in time order) preparing ingredients for final Taiyaki ice cream, assembling the ice cream machine, and making cookies with Taiyaki patterns",
+      "question_type": [
+        "summarization"
+      ],
+      "answer": "A",
+      "time_reference": "00:00-35:30",
+      "type": "selfmedia",
+      "key": "Va_9Q6ekm60"
+    },
+    "question_with_inline_options": "What is the video about?\n(A) This video mainly talks about the preparation work of Taiyaki store before the opening of the day, including (in time order) assembling the ice cream machine, making cookies with Taiyaki patterns and preparing ingredients for final Taiyaki ice cream\n(B) This video mainly talks about the preparation work of Taiyaki store before the opening of the day, including (in time order) making cookies with Taiyaki patterns, assembling the ice cream machine, and preparing ingredients for final Taiyaki ice cream\n(C) This video mainly talks about the preparation work of Taiyaki store before the opening of the day, including (in time order) making cookies with Taiyaki patterns, assembling the ice cream machine, making sauces and preparing ingredients for final Taiyaki ice cream\n(D) This video mainly talks about the preparation work of Taiyaki store before the opening of the day, including (in time order) preparing ingredients for final Taiyaki ice cream, assembling the ice cream machine, and making cookies with Taiyaki patterns"
+  },
+  {
+    "id": "official_0029",
+    "video": "Va_9Q6ekm60.mp4",
+    "video_key": "Va_9Q6ekm60",
+    "video_path": "Va_9Q6ekm60.mp4",
+    "question": "What is the second non-flour substance the shop assistant put into the mixing bowl?",
+    "options": [
+      [
+        "A",
+        "Milk"
+      ],
+      [
+        "B",
+        "Water"
+      ],
+      [
+        "C",
+        "Egg"
+      ],
+      [
+        "D",
+        "Butter"
+      ]
+    ],
+    "answer": "D",
+    "question_type": "action_chain",
+    "time_reference": "09:38-10:10",
+    "raw_item": {
+      "video_path": "Va_9Q6ekm60.mp4",
+      "uid": "3314",
+      "question": "What is the second non-flour substance the shop assistant put into the mixing bowl?\n(A) Milk\n(B) Water\n(C) Egg\n(D) Butter",
+      "question_type": [
+        "event understanding",
+        "entity recognition"
+      ],
+      "answer": "D",
+      "time_reference": "09:38-10:10",
+      "type": "selfmedia",
+      "key": "Va_9Q6ekm60"
+    },
+    "question_with_inline_options": "What is the second non-flour substance the shop assistant put into the mixing bowl?\n(A) Milk\n(B) Water\n(C) Egg\n(D) Butter"
+  }
+]
