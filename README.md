@@ -31,7 +31,7 @@ The framework contains an offline memory-construction stage and an online query-
 - **Local Visual Re-observation:** sample original video frames from the merged temporal groups for fine-grained evidence acquisition.
 - **Visual-grounded Final QA:** use the re-observed frames as the primary evidence, while retaining the selected memory records as auxiliary guidance for final multiple-choice prediction.
 
-The core design principle is straightforward: **structured memory determines where to look, neighbor expansion reduces temporal boundary misses, and the original local video frames provide the primary evidence for answering.**
+The core design principle: **structured memory determines where to look, neighbor expansion reduces temporal boundary misses, and the original local video frames provide the primary evidence for answering.**
 
 ---
 
@@ -113,18 +113,9 @@ data/manifests/lvbench_official_30_fixed.json
 To rebuild from HuggingFace LVBench:
 
 ```bash
-python scripts/build_lvbench_official_subset.py \
-  --hf-name lmms-lab/LVBench \
-  --split auto \
-  --video-root "$VIDEO_ROOT" \
-  --num-videos 3 \
-  --per-video 10 \
-  --seed 2026 \
-  --output data/manifests/lvbench_official_30.json
+python scripts/build_lvbench_official_subset.py --hf-name lmms-lab/LVBench --split auto --video-root "$VIDEO_ROOT" --num-videos 3 --per-video 10 --seed 2026 --output data/manifests/lvbench_official_30.json
 
-python scripts/fix_lvbench_manifest_options.py \
-  --input data/manifests/lvbench_official_30.json \
-  --output data/manifests/lvbench_official_30_fixed.json
+python scripts/fix_lvbench_manifest_options.py --input data/manifests/lvbench_official_30.json --output data/manifests/lvbench_official_30_fixed.json
 ```
 
 ### 2. Download required videos
@@ -132,19 +123,13 @@ python scripts/fix_lvbench_manifest_options.py \
 The LVBench videos are stored in chunked zip files. The low-disk downloader only extracts videos needed by the manifest and removes the zip after scanning.
 
 ```bash
-python scripts/download_lvbench_needed_videos_resumable.py \
-  --manifest data/manifests/lvbench_official_30_fixed.json \
-  --video-dir "$VIDEO_ROOT" \
-  --start 1 \
-  --end 14
+python scripts/download_lvbench_needed_videos_resumable.py --manifest data/manifests/lvbench_official_30_fixed.json --video-dir "$VIDEO_ROOT" --start 1 --end 14
 ```
 
 If a mirror fails, set one endpoint explicitly:
 
 ```bash
 export HF_ENDPOINT=https://hf-mirror.com
-# or
-export HF_ENDPOINT=https://huggingface.co
 ```
 
 ---
@@ -154,31 +139,13 @@ export HF_ENDPOINT=https://huggingface.co
 ### U32
 
 ```bash
-CUDA_VISIBLE_DEVICES=$GPU PYTHONPATH=. python src/baseline_u32.py \
-  --manifest data/manifests/lvbench_official_30_fixed.json \
-  --video-root "$VIDEO_ROOT" \
-  --model-path "$MODEL_PATH" \
-  --output outputs/preds/lvbench_u32_official_30.jsonl \
-  --num-frames 32 \
-  --image-size 448 \
-  --max-new-tokens 32 \
-  --dtype bf16 \
-  --limit 30
+CUDA_VISIBLE_DEVICES=$GPU PYTHONPATH=. python src/baseline_u32.py --manifest data/manifests/lvbench_official_30_fixed.json --video-root "$VIDEO_ROOT" --model-path "$MODEL_PATH" --output outputs/preds/lvbench_u32_official_30.jsonl --num-frames 32 --image-size 448 --max-new-tokens 32 --dtype bf16 --limit 30
 ```
 
 ### U64
 
 ```bash
-CUDA_VISIBLE_DEVICES=$GPU PYTHONPATH=. python src/baseline_u32.py \
-  --manifest data/manifests/lvbench_official_30_fixed.json \
-  --video-root "$VIDEO_ROOT" \
-  --model-path "$MODEL_PATH" \
-  --output outputs/preds/lvbench_u64_official_30.jsonl \
-  --num-frames 64 \
-  --image-size 448 \
-  --max-new-tokens 32 \
-  --dtype bf16 \
-  --limit 30
+CUDA_VISIBLE_DEVICES=$GPU PYTHONPATH=. python src/baseline_u32.py --manifest data/manifests/lvbench_official_30_fixed.json --video-root "$VIDEO_ROOT" --model-path "$MODEL_PATH" --output outputs/preds/lvbench_u64_official_30.jsonl --num-frames 64 --image-size 448 --max-new-tokens 32 --dtype bf16 --limit 30
 ```
 
 ---
@@ -186,16 +153,7 @@ CUDA_VISIBLE_DEVICES=$GPU PYTHONPATH=. python src/baseline_u32.py \
 ## Run Multi-window Agent without Memory
 
 ```bash
-CUDA_VISIBLE_DEVICES=$GPU PYTHONPATH=. python src/agent32_multiwindow_wo_memory.py \
-  --manifest data/manifests/lvbench_official_30_fixed.json \
-  --video-root "$VIDEO_ROOT" \
-  --model-path "$MODEL_PATH" \
-  --output outputs/preds/lvbench_agent32_multiwindow_wo_memory_official_30.jsonl \
-  --coarse-frames 8 \
-  --windows 3 \
-  --frames-per-window 8 \
-  --image-size 448 \
-  --limit 30
+CUDA_VISIBLE_DEVICES=$GPU PYTHONPATH=. python src/agent32_multiwindow_wo_memory.py --manifest data/manifests/lvbench_official_30_fixed.json --video-root "$VIDEO_ROOT" --model-path "$MODEL_PATH" --output outputs/preds/lvbench_agent32_multiwindow_wo_memory_official_30.jsonl --coarse-frames 8 --windows 3 --frames-per-window 8 --image-size 448 --limit 30
 ```
 
 ---
@@ -205,9 +163,7 @@ CUDA_VISIBLE_DEVICES=$GPU PYTHONPATH=. python src/agent32_multiwindow_wo_memory.
 Split the manifest by video:
 
 ```bash
-python scripts/split_manifest_by_video.py \
-  --manifest data/manifests/lvbench_official_30_fixed.json \
-  --out-dir data/manifests/official_30_by_video
+python scripts/split_manifest_by_video.py --manifest data/manifests/lvbench_official_30_fixed.json --out-dir data/manifests/official_30_by_video
 ```
 
 Build memory for each video:
@@ -241,12 +197,9 @@ outputs/preds/lvbench_structured_memory_expand_official_30.jsonl
 Analyze results:
 
 ```bash
-python scripts/summarize_predictions.py \
-  --pred outputs/preds/lvbench_structured_memory_expand_official_30.jsonl
+python scripts/summarize_predictions.py --pred outputs/preds/lvbench_structured_memory_expand_official_30.jsonl
 
-python scripts/analyze_expanded_segment_hit.py \
-  --manifest data/manifests/lvbench_official_30_fixed.json \
-  --pred outputs/preds/lvbench_structured_memory_expand_official_30.jsonl
+python scripts/analyze_expanded_segment_hit.py --manifest data/manifests/lvbench_official_30_fixed.json --pred outputs/preds/lvbench_structured_memory_expand_official_30.jsonl
 ```
 
 ---
