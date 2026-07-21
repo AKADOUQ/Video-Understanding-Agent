@@ -118,6 +118,7 @@ real-video-agent/
 │   ├── lvbench_official_30_fixed.json
 │   ├── lvbench_official_30_stats.json
 │   └── official_30_by_video/
+├── figs/
 ├── docs/                                   # Report materials and result notes
 ├── memory/README.md                        # Memory files are generated locally
 ├── outputs/README.md                       # Prediction outputs are generated locally
@@ -154,9 +155,9 @@ export GPU=0
 
 ## Data Preparation
 
-### 1. Build or reuse the official-30 manifest
+### 1. Build or reuse the LVBench-30 manifest
 
-The submitted repository already includes:
+The repository already includes:
 
 ```text
 data/manifests/lvbench_official_30_fixed.json
@@ -234,7 +235,7 @@ Each segment stores structured fields: scene, characters, actions, objects, visi
 
 ---
 
-## Run StructuredMemory + Neighbor Expansion
+## Run Structured-Memory + Neighbor Expansion
 
 ```bash
 bash scripts/run_expansion_official30.sh
