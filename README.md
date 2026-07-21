@@ -24,7 +24,7 @@ The system is training-free: all methods use the same frozen Qwen3-VL-8B-Instruc
 ## Framework
 
 <p align="center">
-  <img src="docs/overall-framework.png" width="1000" alt="Overall framework">
+  <img src="figs/overall-framework.pdf" width="1000" alt="Overall framework">
 </p>
 
 The framework contains an offline memory-construction stage and an online query-time reasoning stage:
