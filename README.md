@@ -90,11 +90,6 @@ The clearest gains appear in recognition, action, and composite questions. Text 
   </a>
 </p>
 
-<p align="center">
-  <b>Accuracy across question types.</b>
-  Values above the bars report the number of correct predictions over the number of questions in each category.
-</p>
-
 The visualization makes the category-level differences more explicit: both agent variants provide the clearest gains on recognition questions, while Structured-Memory + Expansion further improves action and composite questions. Text recognition and counting remain difficult, showing that better temporal localization does not by itself solve fine-grained OCR or dense counting.
 
 ### Retrieval and Boundary Recovery
