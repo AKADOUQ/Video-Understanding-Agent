@@ -1,4 +1,4 @@
-<img src="docs/agent-logo.png" width="82" align="left" alt="Agent Logo">
+<img src="figs/agent-logo.png" width="82" align="left" alt="Agent Logo">
 
 <h1 align="center">
   A Training-Free Long-Video Understanding Agent<br>
