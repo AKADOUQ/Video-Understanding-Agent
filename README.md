@@ -1,11 +1,7 @@
-<img src="figs/agent-logo.png" width="82" align="left" alt="Agent Logo">
-
 <h1 align="center">
   A Training-Free Long-Video Understanding Agent<br>
   with Structured Memory and Temporal Re-observation
 </h1>
-
-<br clear="left">
 
 > **Important Note:** This repository provides the implementation of a training-free long-video QA agent built on a frozen Qwen3-VL model.  
 > The framework is designed to locate sparse question-relevant evidence in long videos through structured segment memory, neighbor expansion, and local temporal re-observation, without model fine-tuning or a ready-made video-agent framework.
